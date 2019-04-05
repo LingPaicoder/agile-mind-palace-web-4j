@@ -101,7 +101,7 @@
                         type: "get",
                         dataType: "json",
                         async: "false",
-                        url: "/son-num",
+                        url: "/sonNum",
                         data: {
                             pId : jm.get_selected_node().id
                         },
@@ -113,7 +113,7 @@
                                     type: "get",
                                     dataType: "json",
                                     async: "false",
-                                    url: "/article-num",
+                                    url: "/articleNum",
                                     data: {
                                         pId : jm.get_selected_node().id
                                     },

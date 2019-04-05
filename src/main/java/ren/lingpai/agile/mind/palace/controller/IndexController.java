@@ -36,7 +36,7 @@ public class IndexController {
      */
     @Get
     @Action("/mind")
-    public LPView index(Integer pId) {
+    public LPView mind(Integer pId) {
         if (pId == null || pId <= 0) {
             pId = MIND_PALACE_TYPE_ID;
         }
@@ -88,7 +88,7 @@ public class IndexController {
      * 获取子类别数量
      */
     @Get
-    @Action("/son-num")
+    @Action("/sonNum")
     public LPData sonNum(Integer pId) {
         if (pId == null || pId <= 0) {
             pId = MIND_PALACE_TYPE_ID;
@@ -100,7 +100,7 @@ public class IndexController {
      * 获取该类别下的文章数量
      */
     @Get
-    @Action("/article-num")
+    @Action("/articleNum")
     public LPData articleNum(Integer pId) {
         if (pId == null || pId <= 0) {
             pId = MIND_PALACE_TYPE_ID;
