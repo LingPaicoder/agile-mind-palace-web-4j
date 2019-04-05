@@ -1,0 +1,20 @@
+CREATE TABLE `t_type` (
+  `m_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `m_pid` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '父id',
+  `m_topic` varchar(20) NOT NULL DEFAULT '' COMMENT '标题',
+  `m_direction` varchar(20) NOT NULL DEFAULT '' COMMENT '简介',
+  `m_expanded` varchar(20) NOT NULL DEFAULT '' COMMENT '扩展',
+  PRIMARY KEY (`m_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='类别表';
+
+CREATE TABLE `t_mind_article` (
+  `m_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键id',
+  `m_title` varchar(1024) NOT NULL DEFAULT '' COMMENT '标题',
+  `m_summary` varchar(1024) NOT NULL DEFAULT '' COMMENT '摘要',
+  `m_cover_img_url` varchar(1024) NOT NULL DEFAULT '' COMMENT '封面图片地址',
+  `m_url` varchar(1024) NOT NULL DEFAULT '' COMMENT '内容地址',
+  `m_type_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '类别id',
+  `m_star` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '是否精品文章',
+  `m_sort` int(11) unsigned NOT NULL DEFAULT '0' COMMENT '排序',
+  PRIMARY KEY (`m_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='文章表';
