@@ -1,7 +1,7 @@
 # agile-mind-palace-web-4j
 思维殿堂站点 - Java实现
 
-+ 工程地址：http://47.104.190.9:8080/mind
++ 工程地址：http://myxingxing.cn/mind
 
 + 工程效果图：
  
