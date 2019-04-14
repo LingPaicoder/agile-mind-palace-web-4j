@@ -1787,7 +1787,7 @@ a.list-group-item.active > .badge,
 }
 
 #skin-tectile {
-    background: url(../img/body/tectile.png);
+    background: url(../img/skin-tectile.jpg);
 }
 
 @media (min-width: 1200px) {
