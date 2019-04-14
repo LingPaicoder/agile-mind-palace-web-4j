@@ -1,4 +1,4 @@
-package ren.lingpai.agile.mind.palace.entity;
+package com.lpcoder.agile.mind.palace.entity;
 
 /**
  * Created by lrp on 17-3-5.

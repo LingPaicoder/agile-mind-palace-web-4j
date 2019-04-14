@@ -1,4 +1,4 @@
-package ren.lingpai.agile.mind.palace.util;
+package com.lpcoder.agile.mind.palace.util;
 
 import java.util.Random;
 import java.util.UUID;

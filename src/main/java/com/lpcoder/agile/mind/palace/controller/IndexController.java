@@ -1,13 +1,14 @@
-package ren.lingpai.agile.mind.palace.controller;
+package com.lpcoder.agile.mind.palace.controller;
+
+import com.lpcoder.agile.mind.palace.entity.ArticleDO;
+import com.lpcoder.agile.mind.palace.entity.TypeDO;
+import com.lpcoder.agile.mind.palace.service.ArticleService;
+import com.lpcoder.agile.mind.palace.service.TypeService;
+import com.lpcoder.agile.mind.palace.util.RandomUtil;
 
 import java.util.Collections;
 import java.util.List;
 
-import ren.lingpai.agile.mind.palace.entity.ArticleDO;
-import ren.lingpai.agile.mind.palace.entity.TypeDO;
-import ren.lingpai.agile.mind.palace.service.ArticleService;
-import ren.lingpai.agile.mind.palace.service.TypeService;
-import ren.lingpai.agile.mind.palace.util.RandomUtil;
 import ren.lingpai.lpagile.annotation.Action;
 import ren.lingpai.lpagile.annotation.Controller;
 import ren.lingpai.lpagile.annotation.Get;

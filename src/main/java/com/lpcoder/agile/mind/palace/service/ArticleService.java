@@ -1,8 +1,9 @@
-package ren.lingpai.agile.mind.palace.service;
+package com.lpcoder.agile.mind.palace.service;
+
+import com.lpcoder.agile.mind.palace.entity.ArticleDO;
 
 import java.util.List;
 
-import ren.lingpai.agile.mind.palace.entity.ArticleDO;
 import ren.lingpai.lpagile.annotation.Service;
 import ren.lingpai.lpagile.part.DataBasePart;
 
